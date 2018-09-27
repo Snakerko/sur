@@ -1,0 +1,35 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.question {
+	font-weight: bold;
+}
+#second, #third, #content {
+	display: none;
+}
+#load {
+ display: none;
+ position: absolute;
+ right: 10px;
+ top: 10px;
+ width: 43px;
+ height: 11px;
+ text-indent: -9999em;
+}

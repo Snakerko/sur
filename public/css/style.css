@@ -1,0 +1,36 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.question {
+	font-weight: bold;
+}
+#second, #third, #content-wrapper {
+	display: none;
+}
+#load {
+ display: none;
+ position: absolute;
+ right: 10px;
+ top: 10px;
+ width: 43px;
+ height: 11px;
+ text-indent: -9999em;
+}
+.btn-default {
+	background-color: #f2dede;
+    border: 0.1rem solid #f2dede;
+    border-radius: 499rem;
+    color: #a94442;
+}
+	.btn-default:hover, .btn-default:focus, .btn-default:active {
+		background-color: #333;
+	    border-color: #333;
+	    color: #fff;
+	    outline: 0;
+	}
+	.btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover {
+		background-color: transparent;
+    	color: #a94442;
+	}
